@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>
+            微信内提示浏览器打开的代码
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="keywords" content="忘情博客">
+        <meta name="description" content="忘情博客">
+        <link rel="stylesheet" href="https://b.120241400.com/res/layui/css/layui.css">
+        <link rel="stylesheet" href="https://b.120241400.com/res/css/global.css">
+        <script src="https://b.120241400.com/res/layui/layui.js">
+        </script>
+    </head>
+    
+    <body>
+        <iframe src="https://b.120241400.com/res/head.html" scrolling="no" width="100%" height="65px">
+        </iframe>
+        <div class="main layui-clear">
+            <div class="fly-panel" pad20>
+                <h2 class="page-title">
+<div style="text-align:center;">
+	<strong><span style="font-size:32px;"></span><span style="font-size:32px;">微信内提示浏览器打开的代码</span></strong> 
+</div>
+                </h2>
+
+   <div class="wangqing">
+                            <label for="L_title" class="wangqing">
+备用https://blog.csdn.net/qq_36679270/article/details/120334780?spm=1001.2014.3001.5501
+                        <textarea readonly="readonly" rows="10" cols="100%">
+<script type="text/javascript">             function is_weixin() {                 var ua = navigator.userAgent.toLowerCase();                 if (ua.match(/MicroMessenger/i) == "micromessenger") {                     return true;                 } else {                     return false;                 }             }             var isWeixin = is_weixin();             var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight: document.documentElement.clientHeight;             function loadHtml() {                 var div = document.createElement('div');                 div.id = 'weixin-tip';                 div.innerHTML = '<p><img src="https://p15.qhimg.com/t01174ef4302f59fce3.png?https://mapp.alicdn.com/16306714822555obrw02Y9RzuSry.png?http://zhizunwangqing.gitee.io/zaluan1/111/weixinchuangkou/zhedang.png" alt="微信打开"/></p>';                 document.body.appendChild(div);             }              function loadStyleText(cssText) {                 var style = document.createElement('style');                 style.rel = 'stylesheet';                 style.type = 'text/css';                 try {                     style.appendChild(document.createTextNode(cssText));                 } catch(e) {                     style.styleSheet.cssText = cssText; //ie9以下                 }                 var head = document.getElementsByTagName("head")[0]; //head标签之间加上style样式                 head.appendChild(style);             }             var cssText = "#weixin-tip{position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); width: 100%; height:100%; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5%;}";             if (isWeixin) {                 loadHtml();                 loadStyleText(cssText);             }         </script>
+
+                       </textarea>
+                            </label>
+
+                        </div>
+                </h2> 
+      </form>
+    </div>
+  </div>
+</div>
+
+</html>
