@@ -237,15 +237,8 @@ var ipiptv={"CCTV1":"http://shbu.live.bestvcdn.com.cn:8080/live/program/live/cct
 "百事通体育":"http://shbu.live.bestvcdn.com.cn:8080/live/program/live/hdnba7/4000000/mnf.m3u8"};
 //放在最后，可替换地址 shbu.live.bestvcdn.com.cn:8080,keonline.shanghai.liveplay.qq.com,112.132.209.46,liveplay-kk.rtxapp.com
 //183.207.255.190,112.25.48.68
-var woiptv={"一年级":"http://liveplay-kk.rtxapp.com/live/program/live/kkyinj/1300000/mnf.m3u8",
-"二年级":"http://liveplay-kk.rtxapp.com/live/program/live/kkernj/1300000/mnf.m3u8",
-"三年级":"http://liveplay-kk.rtxapp.com/live/program/live/kksannj/1300000/mnf.m3u8",
-	"四年级":"http://liveplay-kk.rtxapp.com/live/program/live/kksinj/1300000/mnf.m3u8",
-	"五年级":"http://liveplay-kk.rtxapp.com/live/program/live/kkwunj/1300000/mnf.m3u8",
-	"六年级":"http://liveplay-kk.rtxapp.com/live/program/live/kkliunj/1300000/mnf.m3u8",
-	"初一":"http://liveplay-kk.rtxapp.com/live/program/live/kkqinj/1300000/mnf.m3u8",
-	"初二":"http://liveplay-kk.rtxapp.com/live/program/live/kkbanj/1300000/mnf.m3u8",
-	"初三":"http://liveplay-kk.rtxapp.com/live/program/live/kkjiunj/1300000/mnf.m3u8",
-	"高一":"http://liveplay-kk.rtxapp.com/live/program/live/kkgaoyinj/1300000/mnf.m3u8",
-	"高二":"http://liveplay-kk.rtxapp.com/live/program/live/kkgaoernj/1300000/mnf.m3u8",
-	"高三":"http://liveplay-kk.rtxapp.com/live/program/live/kkgaosannj/1300000/mnf.m3u8"};
+var woiptv={"凤凰资讯":"https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8",
+"凤凰卫视":"https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8",
+"东方卫视":"http://140.207.241.2:8080/live/program/live/hddfws/4000000/mnf.m3u8",
+	"CCTV13":"https://cctvtxyh5ca.liveplay.myqcloud.com/live/cctv13_2/index.m3u8",
+	"CCTV4":"https://cctvtxyh5ca.liveplay.myqcloud.com/live/cctv4_2/index.m3u8"};
